@@ -20,7 +20,7 @@ Movies are fetched from an external API, and double-click adds items to My List 
 }
 
 ### ▶️ Single Click = Open Trailer Page
-- Movie clicked once → redirects to /videos/{index}
+- Single-click redirects to /videos/{index}
 - Trailer details loaded from JSON or API
 
 ### 🎨 Clean Netflix-style UI
@@ -40,61 +40,65 @@ NETFLIX/
 │
 ├── db/
 │   └── Db.json
+│
 ├── public/
 │   └── (public assets)
+│
 ├── src/
 │   ├── assets/
-│   │   └── (images/videos)
+│   │   └── (images / videos)
+│   │
 │   ├── Header/
 │   │   └── Header.jsx
+│   │
 │   ├── Pages/
 │   │   ├── New_Popular.jsx
 │   │   ├── Shows.jsx
 │   │   ├── Movies.jsx
 │   │   └── Cart.jsx
+│   │
 │   ├── useFetchs.jsx/
 │   │   └── useFetchs.jsx
+│   │
 │   ├── App.jsx
 │   ├── Body.jsx
 │   ├── index.css
 │   ├── main.jsx
 │   └── Videos.jsx
-├── README.md
+│
 ├── package.json
-└── vite.config.js
+├── vite.config.js
+└── README.md
+
 
 ### 🖼️ Screenshots
 
 (Home Screen)
-![<img width="1920" height="1020" alt="home_n" src="https://github.com/user-attachments/assets/da0c9f40-b5e3-4b76-a34c-9ba6c085adfe" />
-]()
+![home](https://github.com/user-attachments/assets/da0c9f40-b5e3-4b76-a34c-9ba6c085adfe)
 
 (Shows Page)
-![<img width="1920" height="1020" alt="shows_n" src="https://github.com/user-attachments/assets/efe7e9b4-3f62-448c-8951-bbbedf916e68" />
-]()
+![shows](https://github.com/user-attachments/assets/efe7e9b4-3f62-448c-8951-bbbedf916e68)
 
 (My List / Cart Page)
-![<img width="1920" height="1020" alt="list_n" src="https://github.com/user-attachments/assets/62926ad8-7ad0-41ce-96f2-43c5e7509bf3" />
-])
+![list](https://github.com/user-attachments/assets/62926ad8-7ad0-41ce-96f2-43c5e7509bf3)
 
 (Trailer Page)
-![<img width="1920" height="1020" alt="video_n" src="https://github.com/user-attachments/assets/7d3b2a09-e3ca-4d19-a649-e465a392bb0b" />
-]()
+![trailer](https://github.com/user-attachments/assets/7d3b2a09-e3ca-4d19-a649-e465a392bb0b)
 
 
 ### 🛠️ Installation & Setup
 
-1. Install packages
+1. Install packages:
 npm install
 
-2. Start JSON Server
+2. Start JSON Server:
 npx json-server --watch db/Db.json --port 5000
 
-Endpoints become:
+Endpoints available:
 /home
 /cart
 
-3. Start React App
+3. Start React App:
 npm run dev
 
 ### 🔐 API Used
