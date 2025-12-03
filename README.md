@@ -126,7 +126,8 @@ npm run dev
 - Add Search Bar (search movies/products)  
 - Add Pagination  
 - Add User Auth (Firebase)  
-- Add Trailer Popup Modal
+- Add Trailer Popup Modal  
+- Add Loading Shimmer Effect
 
 ---
 
@@ -136,8 +137,24 @@ We only **read data**, **play trailers**, and **add to list**.
 
 ---
 
-## 📸 Screenshots (Optional)
-Add your own UI screenshots here.
+## 📸 Screenshots
+
+### 📌 Home Page  
+![Home](./screenshots/home.png)
+
+### 📌 Movies Page  
+![Movies](./screenshots/movies.png)
+
+### 📌 Shows Page  
+![Shows](./screenshots/shows.png)
+
+### 📌 New Added  
+![New Added](./screenshots/newadded.png)
+
+### 📌 My List  
+![My List](./screenshots/mylist.png)
+
+> Replace `.png` files in `/screenshots` folder with your real images.
 
 ---
 
