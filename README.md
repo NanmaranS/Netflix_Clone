@@ -141,8 +141,8 @@ We only **read data**, **play trailers**, and **add to list**.
 ## 📸 Screenshots
 
 ### 📌 Home Page  
-![Home](<img width="1920" height="1020" alt="home_n" src="https://github.com/user-attachments/assets/b929aa3e-72a8-40f8-9929-1b7002b5c47e" />
-)
+![Home]<img width="1920" height="1020" alt="home_n" src="https://github.com/user-attachments/assets/b929aa3e-72a8-40f8-9929-1b7002b5c47e" />
+
 
 ### 📌 Shows Page  
 ![Shows](<img width="1920" height="1020" alt="shows_n" src="https://github.com/user-attachments/assets/63d32101-7b67-46a4-9923-d1a3aa4a7573" />
