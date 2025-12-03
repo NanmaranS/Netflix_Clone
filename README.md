@@ -1,118 +1,146 @@
-# 📺 Netflix Clone – React + JSON Server
+# 🎬 Netflix Clone – React App
 
-A clean Netflix-style UI clone built with React, Axios, and JSON Server.
-Supports Create + Read operations only (no update/delete).
-Movies are fetched from an external API, and double-click adds items to My List through JSON Server.
+A clean and responsive **Netflix UI clone** built using **React + Custom Hooks**.  
+The project uses **OMDb API / Movie API** to fetch movies, shows, and trending content.
 
-### 🚀 Features
+---
 
-### 🎬 Fetch Movies from API
-- Uses OMDB API (or any API you choose)
-- Custom useFetchs.jsx hook for data loading
-- Renders multiple rows like Netflix UI
+## 🚀 Features
 
-### 🖱️ Double Click = Add to My List
-- Double-click on a movie card → Added to /cart in JSON server
-- Structure stored as:
-{
-  "id": "movieID",
-  "Poster": "posterURL"
-}
+### ✔ Fetch Movies & Shows  
+Uses a custom hook (`useFetch`) to fetch movie data from API.
 
-### ▶️ Single Click = Open Trailer Page
-- Single-click redirects to /videos/{index}
-- Trailer details loaded from JSON or API
+### ✔ Single Click → Play Trailer  
+- When the user **single clicks** any movie card  
+- A **random trailer** plays (YouTube embed / API logic)
 
-### 🎨 Clean Netflix-style UI
-- Hover animations
-- Dark theme
-- Responsive grid
-- Global CSS + component CSS organized neatly
+### ✔ Double Click → Add to My List  
+- If user **double clicks** any movie card  
+- The movie will be **added to "My List"** page  
+- Stored using React state or localStorage
 
-### 🗂️ JSON Server
-- JSON server runs on:
-http://localhost:5000/home
-http://localhost:5000/cart
+### ✔ Responsive Netflix UI  
+- Neat home page  
+- Movies page  
+- Series page  
+- Newly Added section  
+- My List page  
+- Fully responsive
 
-### 📂 Folder Structure
+### ✔ No CRUD Operations  
+Since this is a Netflix clone, you **only use:**
+- **Read** (fetch data)  
+- Add to list  
+- Play trailer  
 
-NETFLIX/
-│
-├── db/
-│   └── Db.json
+No create/update/delete forms like normal CRUD apps.
+
+---
+
+## 📂 Folder Structure
+
+```
+netflix-clone/
 │
 ├── public/
-│   └── (public assets)
+│   ├── index.html
+│   └── favicon.ico
 │
 ├── src/
-│   ├── assets/
-│   │   └── (images / videos)
-│   │
-│   ├── Header/
-│   │   └── Header.jsx
-│   │
-│   ├── Pages/
-│   │   ├── New_Popular.jsx
-│   │   ├── Shows.jsx
-│   │   ├── Movies.jsx
-│   │   └── Cart.jsx
-│   │
+│   ├── Components/
+│   │   ├── Header/
+│   │   │   └── Header.jsx
+│   │   ├── Home/
+│   │   │   └── Home.jsx
+│   │   ├── Movies/
+│   │   │   └── Movies.jsx
+│   │   ├── Shows/
+│   │   │   └── Shows.jsx
+│   │   ├── NewAdded/
+│   │   │   └── NewAdded.jsx
+│   │   ├── MyList/
+│   │   │   └── MyList.jsx
+│   │   └── Card/
+│   │       └── Card.jsx
+│
 │   ├── useFetchs.jsx/
-│   │   └── useFetchs.jsx
-│   │
+│   │   └── useFetch.js
+│
+│   ├── App.css
 │   ├── App.jsx
-│   ├── Body.jsx
 │   ├── index.css
 │   ├── main.jsx
-│   └── Videos.jsx
+│   └── data.json   (optional for testing)
 │
 ├── package.json
-├── vite.config.js
 └── README.md
+```
 
+---
 
-### 🖼️ Screenshots
+## 🛠️ Technologies Used
 
-(Home Screen)
-![home](https://github.com/user-attachments/assets/da0c9f40-b5e3-4b76-a34c-9ba6c085adfe)
+- **React + Vite**
+- **React Hooks** (useState, useEffect)
+- **Custom Hook** – `useFetch`
+- **Bootstrap / CSS**
+- **OMDb API or MovieDB API**
+- **LocalStorage** (for My List)
 
-(Shows Page)
-![shows](https://github.com/user-attachments/assets/efe7e9b4-3f62-448c-8951-bbbedf916e68)
+---
 
-(My List / Cart Page)
-![list](https://github.com/user-attachments/assets/62926ad8-7ad0-41ce-96f2-43c5e7509bf3)
+## 📡 API Endpoints Examples
 
-(Trailer Page)
-![trailer](https://github.com/user-attachments/assets/7d3b2a09-e3ca-4d19-a649-e465a392bb0b)
+```
+https://www.omdbapi.com/?apikey=YOUR_KEY&s=avengers
+https://www.omdbapi.com/?apikey=YOUR_KEY&s=game&type=movie&page=1
+https://www.omdbapi.com/?apikey=YOUR_KEY&s=marvel
+```
 
+---
 
-### 🛠️ Installation & Setup
+## ▶ How It Works
 
-1. Install packages:
+### 🎥 1. Fetch Movie Data  
+All pages (Home, Movies, Shows, New Added) fetch data using `useFetch`.
+
+### 🎬 2. Play Trailer (Single Click)  
+Single click → load trailer URL from JSON/YouTube API.
+
+### ⭐ 3. Add to My List (Double Click)  
+Double click → adds movie object to My List page.
+
+---
+
+## 🔧 Installation
+
+```bash
 npm install
-
-2. Start JSON Server:
-npx json-server --watch db/Db.json --port 5000
-
-Endpoints available:
-/home
-/cart
-
-3. Start React App:
 npm run dev
+```
 
-### 🔐 API Used
-Example API call:
-https://www.omdbapi.com/?apikey=YOUR_KEY&s=game&type=movie&page=7
+---
 
-### 📌 Future Improvements
-- Add a search feature to find movies and shows by title using API results
-- Add authentication (Firebase)
-- Save trailers in database
-- Add update/delete in cart
-- Create Genres page
-- Add loading skeleton
+## 🎯 Future Improvements
 
-### ❤️ Thanks for Visiting!
-This project is made for learning and portfolio purposes.
-Clone, fork, and explore the code!
+- Add Search Bar (search movies/products)  
+- Add Pagination  
+- Add User Auth (Firebase)  
+- Add Trailer Popup Modal
+
+---
+
+## 💡 Why No CRUD?  
+Netflix UI doesn’t need create/update/delete.  
+We only **read data**, **play trailers**, and **add to list**.
+
+---
+
+## 📸 Screenshots (Optional)
+Add your own UI screenshots here.
+
+---
+
+## 🙌 Author  
+Developed by **Nanmaran** using React & Movie API.
+
