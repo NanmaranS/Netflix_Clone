@@ -145,16 +145,16 @@ We only **read data**, **play trailers**, and **add to list**.
 
 
 ### 📌 Shows Page  
-![Shows](<img width="1920" height="1020" alt="shows_n" src="https://github.com/user-attachments/assets/63d32101-7b67-46a4-9923-d1a3aa4a7573" />
-)
+![Shows]<img width="1920" height="1020" alt="shows_n" src="https://github.com/user-attachments/assets/63d32101-7b67-46a4-9923-d1a3aa4a7573" />
+
 
 ### 📌 My List  
-![My List](<img width="1920" height="1020" alt="list_n" src="https://github.com/user-attachments/assets/1937450e-9793-46c4-8147-10e26540e632" />
-)
+![My List]<img width="1920" height="1020" alt="list_n" src="https://github.com/user-attachments/assets/1937450e-9793-46c4-8147-10e26540e632" />
+
 
 ### 📌 Trailer Page  
-![Trailer](<img width="1920" height="1020" alt="video_n" src="https://github.com/user-attachments/assets/d2a3bb66-94b5-4538-97c7-26f5845338e9" />
-)
+![Trailer]<img width="1920" height="1020" alt="video_n" src="https://github.com/user-attachments/assets/d2a3bb66-94b5-4538-97c7-26f5845338e9" />
+
 
 
 ---
