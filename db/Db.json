@@ -1,0 +1,108 @@
+{
+  "home": [
+    {
+      "id": "1",
+      "slug": "video-1",
+      "originalUrl": "https://youtu.be/DPUbWvEPcwo",
+      "embedUrl": "https://www.youtube.com/embed/DPUbWvEPcwo",
+      "type": "youtube"
+    },
+    {
+      "id": "2",
+      "slug": "video-2",
+      "originalUrl": "https://youtu.be/6yIpLslyQLU",
+      "embedUrl": "https://www.youtube.com/embed/6yIpLslyQLU",
+      "type": "youtube"
+    },
+    {
+      "id": "3",
+      "slug": "video-3",
+      "originalUrl": "https://youtu.be/1Ni50erpcwA",
+      "embedUrl": "https://www.youtube.com/embed/1Ni50erpcwA",
+      "type": "youtube"
+    },
+    {
+      "id": "4",
+      "slug": "video-4",
+      "originalUrl": "https://youtu.be/nsTMauyViHI",
+      "embedUrl": "https://www.youtube.com/embed/nsTMauyViHI",
+      "type": "youtube"
+    },
+    {
+      "id": "5",
+      "slug": "video-5",
+      "originalUrl": "https://youtu.be/67RWEWEQPAg",
+      "embedUrl": "https://www.youtube.com/embed/67RWEWEQPAg",
+      "type": "youtube"
+    },
+    {
+      "id": "6",
+      "slug": "video-6",
+      "originalUrl": "https://youtu.be/TQTHhMiC4CA",
+      "embedUrl": "https://www.youtube.com/embed/TQTHhMiC4CA",
+      "type": "youtube"
+    },
+    {
+      "id": "7",
+      "slug": "video-7",
+      "originalUrl": "https://youtu.be/Gcf_zI1yJYs",
+      "embedUrl": "https://www.youtube.com/embed/Gcf_zI1yJYs",
+      "type": "youtube"
+    },
+    {
+      "id": "8",
+      "slug": "video-8",
+      "originalUrl": "https://youtu.be/46oR6zCCwMQ",
+      "embedUrl": "https://www.youtube.com/embed/46oR6zCCwMQ",
+      "type": "youtube"
+    },
+    {
+      "id": "9",
+      "slug": "video-9",
+      "originalUrl": "https://youtu.be/CQj29kQSKf0",
+      "embedUrl": "https://www.youtube.com/embed/CQj29kQSKf0",
+      "type": "youtube"
+    },
+    {
+      "id": "10",
+      "slug": "video-10",
+      "originalUrl": "https://youtu.be/cMhzei6IedA",
+      "embedUrl": "https://www.youtube.com/embed/cMhzei6IedA",
+      "type": "youtube"
+    }
+  ],
+  "cart": [
+    {
+      "id": "tt4128102",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTQ4MjE1NTk3NF5BMl5BanBnXkFtZTgwMTk4Mjg2NDE@._V1_SX300.jpg"
+    },
+    {
+      "id": "tt0033317",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYjBhMzQ5NWUtMDQ3Yi00N2JiLWIxMjQtYmZkMjFhYTQ4MDExXkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    {
+      "id": "tt5371572",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTllMmI0NWMtYzI1Zi00YTIzLTk5MDUtNmRmN2VhZDhiMWMxXkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    {
+      "id": "tt10755644",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYjNkZjA1NjQtZTY0Yi00OGM4LWIxOTUtMmY4MmFmZGJiNWQ1XkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    {
+      "id": "tt8205250",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjAwYjE5MGQtNjlhMC00YWJjLTk0ZDktMGUxN2QzMzU1NDc5XkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    {
+      "id": "tt11295300",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BODk4YjIxYmMtYzIxYy00OTkzLTg4ZTEtZmVkOGVkZmE2ODE5XkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    {
+      "id": "tt7387224",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNzRlM2M1ZWQtNmNmMS00MDFlLWFiOTctMTc2OTk3ZWFjZTI5XkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    {
+      "id": "tt9073746",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BODIxZmExNDEtMDk1ZC00MjJhLTg0ZjItMWU4NGQ3MmEyNGUzXkEyXkFqcGdeQXVyODc5MDgxNzE@._V1_SX300.jpg"
+    }
+  ]
+}

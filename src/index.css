@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+}
+.img-wrapper {
+  width: 200px;          /* fixed width */
+  height: 300px;         /* fixed height */
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+ 
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;    /* fill box, crops image if needed */
+  transition: transform 0.4s ease;
+}
+.img-wrapper:hover {
+  transform: scale(1.1);         /* enlarge card slightly */
+  box-shadow: 0 8px 25px rgba(0,0,0,0.7); /* deeper shadow */
+  cursor: pointer;
+  z-index: 10;                   /* appear above others */
+}
+.my-10{
+  margin-top: 100px;
+}
+
+

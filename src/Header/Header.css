@@ -1,0 +1,37 @@
+.n-text{
+    height: 25px;
+    width: 100px;
+}
+.nav-link nav:hover{
+cursor: pointer;
+color: #e50914;
+transition:color 1.9;
+}
+.nav-link h6{
+    font-weight:normal;
+}
+.nav-link{
+     height: 35px; 
+}
+.ms-6{
+    margin-left: 3.4rem;
+}
+.inputs input{
+     height: 27px; 
+         margin-top: 3px;
+
+}
+.header{
+background-color: rgb(0, 0, 0);
+padding-top: 17px;
+height: 70px;
+color: white;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+
+
+
+
+
