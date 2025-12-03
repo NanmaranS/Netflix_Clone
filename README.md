@@ -66,11 +66,11 @@ NETFLIX/
 ### 🖼️ Screenshots
 
 (Home Screen)
-![<img width="1920" height="1020" alt="home_n" src="https://github.com/user-attachments/assets/fb2a786f-7279-48fa-845e-1aadd535bc87" />
+![<img width="1920" height="1020" alt="home_n" src="https://github.com/user-attachments/assets/da0c9f40-b5e3-4b76-a34c-9ba6c085adfe" />
 ]()
 
 (Shows Page)
-![<img width="1920" height="1020" alt="shows_n" src="https://github.com/user-attachments/assets/22f523ac-4457-4a94-8673-54b70fa3cdf5" />
+![<img width="1920" height="1020" alt="shows_n" src="https://github.com/user-attachments/assets/efe7e9b4-3f62-448c-8951-bbbedf916e68" />
 ]()
 
 (My List / Cart Page)
@@ -78,7 +78,7 @@ NETFLIX/
 ])
 
 (Trailer Page)
-![<img width="1920" height="1020" alt="video_n" src="https://github.com/user-attachments/assets/bb78d0db-4bd8-4eeb-8443-5cb7bb1dadcb" />
+![<img width="1920" height="1020" alt="video_n" src="https://github.com/user-attachments/assets/7d3b2a09-e3ca-4d19-a649-e465a392bb0b" />
 ]()
 
 
