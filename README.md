@@ -1,7 +1,8 @@
 # 🎬 Netflix Clone – React App
 
-A clean and responsive **Netflix UI clone** built using **React + Custom Hooks**.  
-The project uses **OMDb API / Movie API** to fetch movies, shows, and trending content.
+A clean and modern **Netflix UI clone** built using **React** and a custom **useFetch hook**.  
+The project uses **OMDb API / Movie API** to load movies, shows, newly added content, and trending titles.  
+Single-click plays a trailer, and double-click adds the item to **My List** for quick access.
 
 ---
 
@@ -140,21 +141,21 @@ We only **read data**, **play trailers**, and **add to list**.
 ## 📸 Screenshots
 
 ### 📌 Home Page  
-![Home](./screenshots/home.png)
-
-### 📌 Movies Page  
-![Movies](./screenshots/movies.png)
+![Home](<img width="1920" height="1020" alt="home_n" src="https://github.com/user-attachments/assets/b929aa3e-72a8-40f8-9929-1b7002b5c47e" />
+)
 
 ### 📌 Shows Page  
-![Shows](./screenshots/shows.png)
-
-### 📌 New Added  
-![New Added](./screenshots/newadded.png)
+![Shows](<img width="1920" height="1020" alt="shows_n" src="https://github.com/user-attachments/assets/63d32101-7b67-46a4-9923-d1a3aa4a7573" />
+)
 
 ### 📌 My List  
-![My List](./screenshots/mylist.png)
+![My List](<img width="1920" height="1020" alt="list_n" src="https://github.com/user-attachments/assets/1937450e-9793-46c4-8147-10e26540e632" />
+)
 
-> Replace `.png` files in `/screenshots` folder with your real images.
+### 📌 Trailer Page  
+![Trailer](<img width="1920" height="1020" alt="video_n" src="https://github.com/user-attachments/assets/d2a3bb66-94b5-4538-97c7-26f5845338e9" />
+)
+
 
 ---
 
