@@ -4,7 +4,7 @@ import useFetch from '../useFetchs.jsx/useFetch'
 import { useNavigate } from 'react-router-dom';
 
 export default function Shows() {
-const [data]=useFetch('https://www.omdbapi.com/?apikey=8874e9a8&s=game&type=series&page=1')
+const [data]=useFetch('enter your api key')
 
 const nav=useNavigate()
 
