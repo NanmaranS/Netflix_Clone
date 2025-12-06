@@ -3,7 +3,7 @@ import useFetch from '../useFetchs.jsx/useFetch'
 import Header from '../Header/Header'
 
 export default function Home() {
-const [data]=useFetch('https://www.omdbapi.com/?apikey=8874e9a8&s=popular&type=movie')
+const [data]=useFetch('enter your api key')
 
 const nav=useNavigate()
 
