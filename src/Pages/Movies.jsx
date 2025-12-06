@@ -4,7 +4,7 @@ import useFetch from '../useFetchs.jsx/useFetch'
 import { useNavigate } from 'react-router-dom';
 
 export default function Movies() {
-  const [data]=useFetch('https://www.omdbapi.com/?apikey=8874e9a8&s=game&type=movie&page=2')
+  const [data]=useFetch('enter your api')
   const nav=useNavigate()
   const  handleCard= (mov, index) => {
   // pass the video id (or index) in URL
