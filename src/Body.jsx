@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
 export default function Home() {
-  const [data] = useFetch('https://www.omdbapi.com/?apikey=8874e9a8&s=marvel&type=movie&page=2');
+  const [data] = useFetch('enter your api);
   const nav = useNavigate();
 
   const clickTimer = useRef(null);
